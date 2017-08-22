@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="1">
+      <Name>TestDataStructManage::testEListInit</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/simon/CodeBlocks/TestDataStructManage/TestDataStructManage.cpp</File>
+        <Line>105</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: EListInitCases(VALID)
+</Message>
+    </FailedTest>
+    <FailedTest id="2">
+      <Name>TestDataStructManage::testEListInsert</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/simon/CodeBlocks/TestDataStructManage/TestDataStructManage.cpp</File>
+        <Line>140</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: EListInsertCases(VALID, VALID, VALID)
+</Message>
+    </FailedTest>
+    <FailedTest id="4">
+      <Name>TestDataStructManage::testEListRemoveFirst</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/simon/CodeBlocks/TestDataStructManage/TestDataStructManage.cpp</File>
+        <Line>303</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: EListRemoveFirstCases(VALID)
+</Message>
+    </FailedTest>
+    <FailedTest id="6">
+      <Name>TestDataStructManage::testEListInsertLast</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/simon/CodeBlocks/TestDataStructManage/TestDataStructManage.cpp</File>
+        <Line>374</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: EListInsertLastCases(VALID, VALID)
+</Message>
+    </FailedTest>
+    <FailedTest id="7">
+      <Name>TestDataStructManage::testEListRemoveLast</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>/home/simon/CodeBlocks/TestDataStructManage/TestDataStructManage.cpp</File>
+        <Line>452</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: EListRemoveLastCases(VALID)
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="3">
+      <Name>TestDataStructManage::testEListInsertFirst</Name>
+    </Test>
+    <Test id="5">
+      <Name>TestDataStructManage::testEListGetFirst</Name>
+    </Test>
+    <Test id="8">
+      <Name>TestDataStructManage::testEListGetLast</Name>
+    </Test>
+    <Test id="9">
+      <Name>TestDataStructManage::testEListRemove</Name>
+    </Test>
+    <Test id="10">
+      <Name>TestDataStructManage::testEListClear</Name>
+    </Test>
+    <Test id="11">
+      <Name>TestDataStructManage::testEListNext</Name>
+    </Test>
+    <Test id="12">
+      <Name>TestDataStructManage::testEListPre</Name>
+    </Test>
+    <Test id="13">
+      <Name>TestDataStructManage::testEListIsEmpty</Name>
+    </Test>
+    <Test id="14">
+      <Name>TestDataStructManage::testEListSize</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>14</Tests>
+    <FailuresTotal>5</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>5</Failures>
+  </Statistics>
+</TestRun>
